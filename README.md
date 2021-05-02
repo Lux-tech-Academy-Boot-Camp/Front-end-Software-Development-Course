@@ -47,4 +47,27 @@ A person enters into the field of front-end development by learning to build a w
 - Don't learn JSX, learn HTML. 
 - Don't learn TypeScript, learn JavaScript.
 - Don't learn Handlebars, learn JavaScript ES6 templates.
-- Don't just use Bootstrap, learn UI patterns.
+- Don't just use Bootstrap, learn UI patterns. 
+
+
+### **Potential Front-end Developer Skills.**
+
+**The following core web technologies are employed by front-end developers:**
+
+- Hyper Text Markup Language (aka HTML)
+
+- Cascading Style Sheets (aka CSS)
+
+- Uniform Resource Locators (aka URLs)
+
+- Hypertext Transfer Protocol (aka HTTP)
+
+- JavaScript Programming Language (aka ECMAScript 262)
+
+- JavaScript Object Notation (aka JSON)
+
+- Document Object Model (aka DOM)
+
+- Web APIs (aka HTML5 and friends or Browser APIs)
+
+- Web Content Accessibility Guidelines (aka WCAG) & Accessible Rich Internet Applications (aka ARIA)
