@@ -1,5 +1,8 @@
 **Reference guide resources:** https://html.com/ 
 
+
+In this course we will be using HTML5.
+ 
 HyperText Markup Language (aka HTML) is where the magic of web page design begins. HyperText Markup Language is a simple, elegant way to structure content. 
 
 **Quick notes:**
@@ -34,6 +37,8 @@ Example of a HTML document.
 **Tags, Attributes and Elements:** The stuff that makes up HTML.
 
 **Page Titles:** Titles For Pages.
+
+**Comments in HTML:** Adding comments in HTML5
 
 **Paragraphs:**Structuring your content with paragraphs.
 
