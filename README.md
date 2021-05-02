@@ -35,4 +35,16 @@ A person enters into the field of front-end development by learning to build a w
 
 - Get opinionated and customize your tool box with whatever makes sense to your brain (e.g. Webpack, React, and Mobx).
 
-- Learn Node.js
+- Learn Node.js 
+
+
+**Note we will follow Lux Tech Academy philosophy:**
+
+**Learning the actual underlying technologies, before learning abstractions.**
+
+- Don't learn jQuery, learn the DOM.
+- Don't learn SASS, learn CSS. 
+- Don't learn JSX, learn HTML. 
+- Don't learn TypeScript, learn JavaScript.
+- Don't learn Handlebars, learn JavaScript ES6 templates.
+- Don't just use Bootstrap, learn UI patterns.
