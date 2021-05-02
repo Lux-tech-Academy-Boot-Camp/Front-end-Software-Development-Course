@@ -27,4 +27,26 @@ Example of a HTML document.
 
 </body>
 </html>
-```
+``` 
+
+**Outline:** 
+
+**Tags, Attributes and Elements:** The stuff that makes up HTML.
+
+**Page Titles:** Titles For Pages.
+
+**Paragraphs:**Structuring your content with paragraphs.
+
+**Headings:** The six levels of headings.
+
+**Lists:** How to define ordered and unordered lists.
+
+**Links:** How to makes links to other pages, and elsewhere.
+
+**Images:** Adding something a bit more than text.
+
+**Tables:** How to use tabular data.
+
+**Forms:** Text boxes and other user-input thingamajigs.
+
+**Putting It All Together:** Taking all of the above stuff and shoving it together. Sort of in a recap groove.
