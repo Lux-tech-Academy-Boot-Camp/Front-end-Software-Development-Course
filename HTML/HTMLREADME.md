@@ -40,7 +40,7 @@ To get back to the point, ``` <html> ``` is the opening tag that kicks things of
 ###  **Note**
 Not all tags have closing tags like this ```(<html></html>)``` some tags, which do not wrap around content will close themselves. The line-break tag for example, looks like this : ```<br>``` - a line break doesn’t hold any content so the tag merrily sits by its lonely self. These tags are called **self-closing** tags. 
 
-Tags can also have **attributes,** which are extra bits of information. Attributes appear inside the opening tag and their values sit inside quotation marks. They look something like ```<tag attribute="value">Margarine</tag>```. We will come across tags with attributes later.
+Tags can also have **attributes,** which are extra bits of information. Attributes appear inside the opening tag and their values sit inside quotation marks. They look something like ```<tag attribute="value">Margarine</tag>```. 
 
 **Example:**
 
@@ -51,6 +51,7 @@ Tags can also have **attributes,** which are extra bits of information. Attribut
 ```
 
 
+
 **Outline:** 
 
 **Tags, Attributes and Elements:** The stuff that makes up HTML.
@@ -59,6 +60,11 @@ Tags can also have **attributes,** which are extra bits of information. Attribut
 ### **Tags**
 
 The basic structure of an HTML document includes tags, which surround content and apply meaning to it.
+
+
+### **Elements**
+Tags tend not to do much more than mark the beginning and end of an element. Elements are the bits that make up web pages. You would say, for example, that everything that is in between (and includes) the <body> and </body> tags is the body element. As another example, whereas “<title>” and “</title>” are tags, “<title>Rumple Stiltskin</title>” is a title element.
+
 
 **Page Titles:** Titles For Pages.
 
