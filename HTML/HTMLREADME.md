@@ -68,7 +68,7 @@ Tags tend not to do much more than mark the beginning and end of an element. Ele
 
 **Comments in HTML:** Adding comments in HTML5
 
-**Paragraphs:**Structuring your content with paragraphs.
+**Paragraphs:** Structuring your content with paragraphs.
 
 **Headings:** The six levels of headings.
 
