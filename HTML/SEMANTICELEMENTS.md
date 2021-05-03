@@ -1,6 +1,6 @@
 ## **Semantic HTML5 Elements.**
 
-Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. 
+Semantic HTML elements are those that clearly describe their meaning in a human and machine readable way. 
 
 
 HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, its needs changed. 
