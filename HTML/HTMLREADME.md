@@ -50,8 +50,6 @@ Tags can also have **attributes,** which are extra bits of information. Attribut
 
 ```
 
-
-
 **Outline:** 
 
 **Tags, Attributes and Elements:** The stuff that makes up HTML.
