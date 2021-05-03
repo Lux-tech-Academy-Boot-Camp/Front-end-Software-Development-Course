@@ -32,9 +32,19 @@ Example of a HTML document.
 </html>
 ``` 
 
+The first line on the top, ```html <!DOCTYPE html> ```, is a document type declaration and it lets the browser know which flavor of HTML you’re using (HTML5, in this case). It’s very important to stick this in - If you don’t, browsers will assume you don’t really know what you’re doing and act in a very peculiar way. 
+
+To get back to the point, ```html <html> ``` is the opening tag that kicks things off and tells the browser that everything between that and the ```html </html> ``` closing tag is an HTML document. The stuff between ```html <body> ``` and ```html </body> ``` is the main content of the document that will appear in the browser window.
+
+
 **Outline:** 
 
 **Tags, Attributes and Elements:** The stuff that makes up HTML.
+
+
+### **Tags**
+
+The basic structure of an HTML document includes tags, which surround content and apply meaning to it.
 
 **Page Titles:** Titles For Pages.
 
