@@ -72,7 +72,7 @@ How to makes links to other pages, and elsewhere.
 <a class="link" href="https://github.com" rel="nofollow">GitHub</a>
 ```
 
-#### **Images, Videos and Audio:**
+#### **Images:**
 
 ```html
 <img src="image.jpg" class="img"  id="img" alt="diplay when image is not available"> 
@@ -99,4 +99,76 @@ How to use tabular data.
 <form>
 	<input type="text" name="fname" required>
 </form>
+```
+
+#### **Videos and Audio:**
+
+1). Video.
+
+```html
+<video src = "foo.mp4"  width = "300" height = "200" controls>
+   Your browser does not support the <video> element.   
+</video>
+``` 
+### **Note:**
+
+The current HTML5 draft specification does not specify which video formats browsers should support in the video tag. But most commonly used video formats are −
+
+**Ogg** − Ogg files with Thedora video codec and Vorbis audio codec.
+
+**mpeg4** − MPEG4 files with H.264 video codec and AAC audio codec.
+
+You can use **<source>** tag to specify media along with media type and many other attributes.  
+
+
+**Attribute Specification in Videos:** 
+
+**autoplay**
+
+This Boolean attribute if specified, the video will automatically begin to play back as soon as it can do so without stopping to finish loading the data.
+
+
+**autobuffer**
+
+This Boolean attribute if specified, the video will automatically begin buffering even if it's not set to automatically play.
+
+
+**controls**
+
+If this attribute is present, it will allow the user to control video playback, including volume, seeking, and pause/resume playback.
+
+
+**height**
+
+This attribute specifies the height of the video's display area, in CSS pixels.
+
+	
+**loop**
+
+This Boolean attribute if specified, will allow video automatically seek back to the start after reaching at the end.
+
+
+**preload**
+
+This attribute specifies that the video will be loaded at page load, and ready to run. Ignored if autoplay is present.
+
+**poster**
+
+This is a URL of an image to show until the user plays or seeks.
+
+
+**src**
+
+The URL of the video to embed. This is optional; you may instead use the <source> element within the video block to specify the video to embed.
+	
+**width**
+
+This attribute specifies the width of the video's display area, in CSS pixels.
+
+2)Audio
+
+```html
+<audio src = "foo.wav" controls autoplay>
+   Your browser does not support the <audio> element.   
+</audio>
 ```
