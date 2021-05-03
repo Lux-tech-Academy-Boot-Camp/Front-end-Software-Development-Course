@@ -5,7 +5,7 @@ In this course we will be using HTML5.
  
 HyperText Markup Language (aka HTML) is where the magic of web page design begins. HyperText Markup Language is a simple, elegant way to structure content. 
 
-**Quick notes:**
+## **Quick notes:**
 
 - HTML stands for Hyper Text Markup Language
 - HTML is the standard markup language for creating Web pages
@@ -35,6 +35,20 @@ Example of a HTML document.
 The first line on the top, ``` <!DOCTYPE html> ```, is a document type declaration and it lets the browser know which flavor of HTML you’re using (HTML5, in this case). It’s very important to stick this in - If you don’t, browsers will assume you don’t really know what you’re doing and act in a very peculiar way. 
 
 To get back to the point, ``` <html> ``` is the opening tag that kicks things off and tells the browser that everything between that and the ``` </html> ``` closing tag is an HTML document. The stuff between ``` <body> ``` and ``` </body> ``` is the main content of the document that will appear in the browser window.
+
+
+###  **Note**
+Not all tags have closing tags like this ```(<html></html>)``` some tags, which do not wrap around content will close themselves. The line-break tag for example, looks like this : ```<br>``` - a line break doesn’t hold any content so the tag merrily sits by its lonely self. These tags are called **self-closing** tags. 
+
+Tags can also have **attributes,** which are extra bits of information. Attributes appear inside the opening tag and their values sit inside quotation marks. They look something like ```<tag attribute="value">Margarine</tag>```. We will come across tags with attributes later.
+
+**Example:**
+
+```html
+
+<input form-input type="text" name="fname" class="name-element"  id="name-element" required />
+
+```
 
 
 **Outline:** 
