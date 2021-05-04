@@ -1,0 +1,16 @@
+body{
+	padding: 0px;
+	margin:0px;
+}
+.main{
+	height: 100%;
+	width:100%;
+	background-color:#00060;
+}
+
+data{
+	display: grid;
+	/*justify-items:center;
+	align-items: center;*/
+	place-items:center;
+}
