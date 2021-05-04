@@ -22,10 +22,10 @@
 ```html
 	<h1> This is header 1 </h1>
 	<h2> This is header 2 </h2>
-	<h2> This is header 2 </h2> 
-	<h2> This is header 2 </h2> 
-	<h2> This is header 2 </h2> 
-	<h2> This is header 2 </h2> 
+	<h3> This is header 3 </h3> 
+	<h4> This is header 4 </h4> 
+	<h5> This is header 5 </h5> 
+	<h6> This is header 6 </h6> 
 ```
 
 #### **Lists:**
@@ -45,11 +45,11 @@
 2). Unorder List.
 
 ```html
-<ol>
+<ul>
 	<li>List item 1</li>
 	<li>List item 2</li>
 	<li>List item 3</li>
-</ol>
+</ul>
 ```
 
 3). description lists
