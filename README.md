@@ -1,4 +1,4 @@
- ## **LuxTech Academy Full Stack Web Development Course.** 
+ ## **Lux Tech Academy Front-end Software Development Course.** 
 
 
  This will be a comprehesive course, where we will handle frontend and backend software development. 
