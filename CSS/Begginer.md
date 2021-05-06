@@ -15,7 +15,7 @@ In the CSS, a class selector is a name preceded by a full stop (“.”) and an 
     font-weight: bold;
 } 
 
-/* Additional selector style */
+/* Additional selector */
 
 [text]{
 	color: red;
@@ -24,10 +24,14 @@ In the CSS, a class selector is a name preceded by a full stop (“.”) and an 
 }
 ``` 
 
-#### **HTML5 Markdown being styles**
+### **Ethans Formula for Calculating Flexible Layout.**
 
-```html
-<h1> Hello from header1 </h1> 
-<h2> Hello from header2 </h2> 
-<p> Hello from paragraph </p> 
+Ethan pointed out an easy formula to help identify the proportions of a flexible layout using relative values.
+
+The formula is based around taking the target width of an element and dividing it by the width of it’s parent element. The result is the relative width of the target element.
+
+**i.e:**
+```css
+target ÷ context = result
+
 ```
