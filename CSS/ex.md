@@ -32,7 +32,7 @@
 	</style>
 </head>
 <body>
-	<div class="main">
+	<div data class="main">
 		<div class="app">
 			<button> Read More</button>
 		</div>
@@ -41,4 +41,12 @@
 </body>
 </html> 
 
+``` 
+## css
+
+
+```css
+[data]{
+	color:red;
+}
 ```
