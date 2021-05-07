@@ -54,6 +54,43 @@ box-shadow: 5px 5px 3px 1px #999
 
 
 
+### **Media Queries**
+
+@media at-rules are used to target styles at specific media, such as screen or print  etc ... 
+
+**Example:**
+
+```css
+@media screen {
+
+    body { font: 12px arial, sans-serif }
+    #nav { display: block }
+
+}
+
+``` 
 
 
-@media at-rules are used to target styles at specific media, such as screen or print  etc ...
+**You can also add browser-size specific media queries.** 
+
+**Example:**
+
+```css
+@media screen and (max-width: 1000px) {
+
+    #content { width: 100% }
+
+}
+``` 
+
+**You can also add device-specific media queries.** 
+
+**Example:** 
+
+```css
+@media screen and (min-device-height: 768px) and (max-device-width: 1024px) {
+
+    /* You can apply numerous conditions separated by "and" */
+
+} 
+```

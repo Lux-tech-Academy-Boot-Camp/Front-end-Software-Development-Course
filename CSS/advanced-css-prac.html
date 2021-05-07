@@ -10,7 +10,7 @@
 		body, .app{
 			width: 100%;
 			height: 100%;
-			background-color: grey;
+			background-color: black;
 		}
 
 		.app{
@@ -20,13 +20,22 @@
 		.data{
 			height: 400px;
 		    width:  500px;
-			background-color: #000060;	
-			box-shadow: inset 0 0 7px 5px #ddd;
+			background-color: #000060;
+
+			/* Styles to make box shadow appear in all 4 sides */	
+		    box-shadow: 0px  1px 2px 2px red;
+
+			/* Styles to make box shadow apper two sides */
+			/*box-shadow: 3px  2px 5px 1.5px red;*/
+
+
+			/*box-shadow: inset 0 0 7px 5px red;*/
 		}
 
 		body, .app, .data{
 			display: grid;
 			place-items:center;
+			font-weight: bold;
 		}
 		.data button{
 			height: 34px;
@@ -35,10 +44,11 @@
 			background-color: pink;
 		}
 		button{
-			box-shadow: 3px 3px 2px 1px #999;
+			box-shadow: 1px 1px 2px 1px #999;
 		}
 		h1{
-			 text-shadow: -2px 2px 2px #999;
+			color: white;
+			 text-shadow: 2px 2px 2px red;
 		}
 	</style>
 </head>
