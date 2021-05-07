@@ -1,5 +1,6 @@
 ## **Object Oriented CSS (OOCSS)**
 
+
 The Object Oriented CSS methodology was pioneered by Nicole Sullivan in her work with writing styles for larger websites. Object Oriented CSS identifies two principles that will help build scalable websites with a strong architecture and a reasonable amount of code.
 
 
@@ -18,7 +19,6 @@ Separating content from the container involves removing the dependency of a pare
   <p class="msg">...</p>
 </div>
 ```
-
               
 ### **CSS.**
 
@@ -40,29 +40,25 @@ State
 Theme
 The base category includes core element styles, covering the general defaults. The layout category then identifies the sizing and grid styles of different elements, determining their layout. Module styles are more specific styles targeting individual parts of the page, such as navigation or feature styles. The state styles are then used to augment or override other styles in the event that a module includes an alternate state, an active tab for example. Lastly, the theme category may be added which could include styles based around the skin, or look and feel, of different modules.
 
-HTML
-1
-2
-3
-4
+#### **HTML**
+
+```html
 <div class="alert is-error">
   <p>...</p>
 </div>
-
+```
               
-CSS
-1
-2
-3
-4
-5
+#### **CSS**
+
+```css
 .alert {...}
 .alert.is-error {...}
 .alert p {...}
 .alert.is-error p {...}
-
+```
               
 In the example above the alert class falls into the module category while the is-error class falls into the state category. Styles from each of these categories are then inherited as necessary.
 
 Choosing a Methodology
+
 Choosing which methodology to use, if any, is completely up to you and what you feel is best for a given website. Generally speaking, a solid mix of both OOCSS and SMACSS works well, borrowing principles from each methodology as you prefer.
