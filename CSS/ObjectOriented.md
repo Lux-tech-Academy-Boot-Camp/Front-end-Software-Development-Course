@@ -1,7 +1,7 @@
 ## **Object Oriented CSS (OOCSS)**
 
 
-The Object Oriented CSS methodology was pioneered by Nicole Sullivan in her work with writing styles for larger websites. Object Oriented CSS identifies two principles that will help build scalable websites with a strong architecture and a reasonable amount of code.
+The Object Oriented CSS (OOCSS) methodology pioneered by Nicole Sullivan, Product Manager @ Google Chrome identifies two principles that will help build scalable websites with a strong architecture and a reasonable amount of code.
 
 
 **These two principles include:**
@@ -14,7 +14,8 @@ Overall separating structure from skin includes abstracting the layout of an ele
 Separating content from the container involves removing the dependency of a parent element nesting children elements. A heading should look the same regardless of its parent container. To accomplish this, elements need to inherit default styles, then be extended with multiple classes as necessary.
 
 #### **HTML.**
-```
+
+```html
 <div class="alert alert-error">
   <p class="msg">...</p>
 </div>
@@ -22,7 +23,7 @@ Separating content from the container involves removing the dependency of a pare
               
 ### **CSS.**
 
-```
+```css
 .alert {...}
 .alert-error {...}
 .msg {...}
