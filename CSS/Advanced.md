@@ -50,4 +50,10 @@ box-shadow: 5px 5px 3px 1px #999
 - The fourth value is the color (optional, although omitting this will make the shadow the same color as the text itself) 
 
 
-**Demos:**
+**Demos:**  https://github.com/Lux-tech-Academy-Boot-Camp/Front-end-Software-Development-Course/blob/main/CSS/advanced-css-prac.html
+
+
+
+
+
+@media at-rules are used to target styles at specific media, such as screen or print  etc ...
