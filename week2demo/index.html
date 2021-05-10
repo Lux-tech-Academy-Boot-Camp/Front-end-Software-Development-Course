@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 2 Demo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+	      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+	      crossorigin="anonymous"/>
+</head>
+<body>
+	<nav>
+		<label class="logo"> Week 2 </label>
+		<ul>
+			<li><a class="active" href="#"> Home </a> </li>
+			<li><a href="#"> Blog </a> </li>
+			<li><a href="#"> Services </a> </li>
+			<li><a href="#"> Contact </a> </li>
+			<li><a href="#"> Feedback </a> </li>
+		</ul> 
+		<label id="icon">
+			<i class="fas fa-bars"></i>
+			
+		</label>
+		
+	</nav>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" 
+			integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+			crossorigin="anonymous"></script>
+
+	<script>
+		$(document).ready(function() {
+			$('#icon').click(function(){
+				$('ul').toggleClass("show")
+			});
+		});
+	</script>
+
+</body>
+</html>
