@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="">
+	<style>
+
+		*{
+			padding: 0px;
+			margin:0px;
+		}
+
+		div{
+			background-color: grey;
+			display: grid;
+			place-items:center;
+			width: 100vw;
+			height: 100vh;
+		}
+		button{
+			width: 150px;
+			height: 34px; 
+			border-radius: 4px;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- ??DOM --> 
+	<div class="app">
+		<button onclick="theme()"> Click Me </button>
+	</div>
+
+	<script type="text/javascript"> 
+
+		 function theme(){
+		 	let app = document.querySelector(".app");
+		 	app.style.backgroundColor = "black";
+		 }
+
+		 // let sometext = document.querySelector(".text"); 
+
+		// sometext.style.color = "red";
+		// sometext.style.fontSize = "50px";
+
+		 
+	</script>
+
+
+</body>
+</html>

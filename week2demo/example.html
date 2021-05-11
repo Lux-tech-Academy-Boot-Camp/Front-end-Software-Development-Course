@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple</title>
+	<style type="text/css">
+		*{
+			margin:0px;
+			padding: 0px
+		}
+
+		div{
+			display: grid;
+			place-items:center;
+			height: 100vh;
+			width: 100%;
+			background-color: grey;
+		}
+		button{
+			height: 34px;
+			width:  150px;
+			font-weight: bold;
+			border-radius: 4px;
+
+
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<button  onclick="them()"> Change Theme </button>
+	</div>
+
+	<div>
+		<h1 class="text">
+			Hello World
+		</h1>
+
+	</div>
+
+	<script type="text/javascript">
+
+		// document.querySelector("#text") - id selector
+		// document.querySelector(".text") - class selector
+		let text = document.querySelector(".text");
+
+		// .style - is used to style javascript variables 
+
+		// one word style color , display 
+
+		// //Two word style fontWeight
+		// example: background-color: 
+
+		// .style.backgroundColor 
+		 
+
+		text.style.color = "red";
+	</script>
+
+</body>
+</html>
