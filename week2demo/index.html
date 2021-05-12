@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<title>Week 2 Demo</title>
@@ -8,47 +8,41 @@
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
 	      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
 	      crossorigin="anonymous"/>
+	      <style type="text/css">
+	      	.preview{
+	      		width: 300px;
+	      		height: 100px;
+	      		border: 2px solid white;
+	      		margin-top: 15px;
+	      		display: flex;
+	      		align-items: center;
+	      		justify-content: center;
+	      		font-weight: bold;
+	      		color: white;
+	      	}
+	      	.crop-image{
+	      		display: none;
+	      	}
+	      </style>
 </head>
 <body>
 	<nav>
-		<label class="logo"> Week 2 </label>
-		<ul>
-			<li><a class="active" href="#"> Home </a> </li>
-			<li><a href="#"> Blog </a> </li>
-			<li><a href="#"> Services </a> </li>
+		<label class="logo"> NeXtAfrica </label>
+		<ul class="menu">
+			<li><a class="active" href="#"> Predict </a> </li>
+			<li><a href="#"> About </a> </li>
+			<li><a href="#"> Report </a> </li>
 			<li><a href="#"> Contact </a> </li>
-			<li><a href="#"> Feedback </a> </li>
+			<button>
+				close
+			</button>
+			
 		</ul> 
 		<label id="icon">
-			<i class="fas fa-bars"></i>
-		</label>
-		
+
+			<i onclick="show()" class="fas fa-bars"></i>
+		</label>	
 	</nav>
-
-
-
-
-
-<div>
-
-<!-- Text Decoration -->
-<a style="text-decoration: none; color: black;" class="active" href="#"> Home </a></div>
-
-
-	<div style="text-align: center; font-size: 50px; display: none; ">
-		<i class="fas fa-car"></i>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.6.0.js" 
-			integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
-			crossorigin="anonymous"></script>
-
-	<script>
-		$(document).ready(function() {
-			$('#icon').click(function(){
-				$('ul').toggleClass("show")
-			});
-		});
-	</script>
-
+	<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
