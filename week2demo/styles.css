@@ -10,17 +10,19 @@
 
 body{
 	font-family: montserrat;
+	height: 100%;
 
 }
 
 nav{
 	height: 80px;
 	width: 100%;
-	background-color: #000060;
+	background-color: black;
+	position: fixed;
 }
 
 label.logo{
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: bold; 
 	color: white;
 	padding: 0 50px;
@@ -60,13 +62,20 @@ nav a{
 	padding: 7px 10px;
 	border-radius: 4px;
 } 
+.donate{
+	background-color: white;
+	color: #000060;
+
+}
 
 
-
-
-
-a.active,a:hover{
+a:hover{
 	border:1px solid white;
+	transition: 1s;
+} 
+
+.donate:hover{
+	border:3px solid pink;
 	transition: 1s;
 }
 

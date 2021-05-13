@@ -1,48 +1,120 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
-	<title>Week 2 Demo</title>
+	<title>Lux Tech Academy</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/x-icon" href="logo.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
-	      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
-	      crossorigin="anonymous"/>
-	      <style type="text/css">
-	      	.preview{
-	      		width: 300px;
-	      		height: 100px;
-	      		border: 2px solid white;
-	      		margin-top: 15px;
-	      		display: flex;
-	      		align-items: center;
-	      		justify-content: center;
-	      		font-weight: bold;
-	      		color: white;
-	      	}
-	      	.crop-image{
-	      		display: none;
-	      	}
-	      </style>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<style type="text/css">
+		.footer-items {
+			margin: 30px;
+			border-radius: 10px;
+		}
+
+		.barner {
+			height: 56vh;
+			width: 46%;
+			margin: 3%;
+			text-align: ;
+			border-radius: 4px;
+			color: white;
+		}
+
+		p {
+			font-size: 18px;
+		}
+
+		.btns {
+			margin-top: 40px;
+			padding: 20px;
+		}
+
+		.btn {
+			width: 140px;
+			height: 34px;
+			border-radius: 5px;
+			border: 0px;
+			margin: 10px;
+			font-weight: bold;
+			color: #000;
+
+		}
+	</style>
 </head>
+
 <body>
 	<nav>
-		<label class="logo"> NeXtAfrica </label>
+		<label class="logo">
+			Lux Academy
+		</label>
 		<ul class="menu">
-			<li><a class="active" href="#"> Predict </a> </li>
-			<li><a href="#"> About </a> </li>
-			<li><a href="#"> Report </a> </li>
-			<li><a href="#"> Contact </a> </li>
-			<button>
-				close
-			</button>
-			
-		</ul> 
+			<li><a class="active" href="#"> Courses </a> </li>
+			<li><a href="#"> Blog </a> </li>
+			<li><a href="#"> Events </a> </li>
+			<li><a href="#"> Community </a> </li>
+			<li><a href="#" class="donate"> Donate </a> </li>
+		</ul>
 		<label id="icon">
 
 			<i onclick="show()" class="fas fa-bars"></i>
-		</label>	
+		</label>
 	</nav>
+	<section style="height: 75vh; padding-top:80px; background-color: #08001A; display: flex;">
+		<div class="barner">
+			<p style="margin-top: 38px;">Lux Tech Academy is a free online training BootCamp which has crash and advance
+				coding classes.
+			</p>
+			<br />
+
+			<p>Our courses are designed and organized by experienced team of Developers and Engineers.
+			</p><br />
+			<p>
+				Learn Programming, Web Apps Development, Data Science, Data Structures and Algorithms The Right Way.
+			</p> <br />
+			<p>
+				We're trying to build an online coding school that's as good as MIT but as cheap as a gym membership.
+			</p>
+			<div class="btns" style="color: #000060;">
+				<button class="btn"> Hire Us</button>
+				<button class="btn"> Enroll Now</button>
+			</div>
+
+
+		</div>
+		<div class="barner" style="border-radius: 4px; ">
+			<img src="demo.jpg" width="100%" height="100%" style="margin-bottom: 30px; border-radius: 4px;">
+		</div>
+
+
+	</section>
+
+	<section style="height: 40vh; background-color: white; ">
+
+	</section>
+	<section style="height: 80vh; background-color: #08001A;">
+
+	</section>
+	<section style="height: 80vh; background-color: white;">
+
+	</section>
+
+	<footer
+		style="height: 50vh; background-color: #08001A; display: flex; align-items: center; justify-content: center;">
+		<div class="footer-items" style="background-color: white; width: 30%; height: 39vh;">
+
+		</div>
+		<div class="footer-items" style="background-color: white; width: 30%; height: 39vh;">
+
+		</div>
+		<div class="footer-items" style="background-color: white; width: 30%; height: 39vh;">
+
+		</div>
+	</footer>
 	<script type="text/javascript" src="app.js"></script>
 </body>
+
 </html>
