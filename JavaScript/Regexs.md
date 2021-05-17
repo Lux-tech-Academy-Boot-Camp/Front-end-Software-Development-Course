@@ -11,7 +11,7 @@ For example, you can use regular expressions to extract useful information in we
 **Creating a regular expression.**
 To create a regular expression in JavaScript, you enclose its pattern in forward-slash (/) characters like this:
 
-```javacript
+```javascript
 let re = /hi/;
 ``` 
 
