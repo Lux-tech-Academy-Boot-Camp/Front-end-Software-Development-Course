@@ -151,3 +151,10 @@ section{
 }
 
 
+/* footer section */
+.footer-headers{
+	text-align: center;
+}
+.footer-text{
+	padding: 8px;
+}
