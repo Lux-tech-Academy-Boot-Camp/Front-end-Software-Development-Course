@@ -25,7 +25,7 @@ label.logo{
 	font-size: 28px;
 	font-weight: bold; 
 	color: white;
-	padding: 0 50px;
+	padding: 0 50px ; /*clockwise*/
 	line-height: 80px;
 	font-family: 'Itim', cursive;
 } 
