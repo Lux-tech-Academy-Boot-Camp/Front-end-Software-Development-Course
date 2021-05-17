@@ -113,4 +113,4 @@ do {
 console.dir(matches);
 ``` 
 
-!()[JavaScript-Regular-Expression.png]
+![](JavaScript-Regular-Expression.png)
