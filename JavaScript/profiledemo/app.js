@@ -1,7 +1,7 @@
 async function getUsers() {
     // let url = 'https://raw.githubusercontent.com/Lux-tech-Academy-Boot-Camp/Front-end-Software-Development-Course/main/JavaScript/profiledemo/users.json';
     // 
-let url = `http://localhost:5000/getUsers`
+let url = `https://raw.githubusercontent.com/timothyAgevi/Portfolio/gh-pages/us.json`
     try {
         let res = await fetch(url);
         return await res.json();
