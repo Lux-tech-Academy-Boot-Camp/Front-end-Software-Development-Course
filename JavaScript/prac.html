@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS practice </title>
+</head>
+<body>
+	<!-- 
+		1). Creat a div with class name container
+
+		2). You add H2 with simple text from JavaScript( Dont use HTML MARKUP)
+	-->
+
+	<div class="container"> 
+
+	</div>
+
+	<script type="text/javascript">
+		
+		let data  = document.querySelector(".container");
+
+		data.innerHTML = `
+							<div>
+							<p> hello </p>
+							<h1> Heading </h1>
+							<span> Span </span>
+							<ul>
+							<li> Home </li>
+							<li> About </li>
+							</ul>
+							</div>
+
+		                  `
+	</script>
+</body>
+</html>
