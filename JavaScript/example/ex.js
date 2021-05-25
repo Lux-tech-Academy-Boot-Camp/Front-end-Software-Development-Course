@@ -1,6 +1,6 @@
 var num = 20000
 
-var sim  = "4500"
+var sim  = 34
 
 var sum = num + sim; 
 
