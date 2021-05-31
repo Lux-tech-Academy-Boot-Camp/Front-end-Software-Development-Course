@@ -1,0 +1,30 @@
+@import 'common.css';
+
+:root {
+    --red: #ff6f69;
+    --beige: #ffeead;
+    --yellow: #ffcc5c;
+}
+
+html, body {
+    background: var(--beige);
+    color: var(--red);
+}
+
+h1, p {
+    color: var(--red);
+}
+
+#navbar a {
+    color: var(--red);
+}
+
+.item {
+    background: var(--yellow);
+    color: var(--red);
+}
+
+button {
+    background: var(--red);
+    color: var(--yellow);
+}

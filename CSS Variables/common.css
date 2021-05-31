@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+#navbar {
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-auto-rows: 140px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+#navbar > ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > p {
+    font-size: 12px;
+}
+
+button {
+    margin: 0px auto;
+    display: block;
+    padding: 5px 10px;
+    border: none;
+}
