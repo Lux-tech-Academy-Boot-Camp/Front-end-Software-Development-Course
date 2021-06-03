@@ -1,0 +1,8 @@
+:root{
+	--mycolor: #000046;
+	--mybacgroundcolor:#000060;
+}
+
+.app{
+	background-color: var(--mybacgroundcolor);
+}
