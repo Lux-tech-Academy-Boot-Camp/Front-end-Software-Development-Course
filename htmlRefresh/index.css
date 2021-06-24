@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+
+* {
+padding: 0px;
+margin:0px;
+--myred:red;
+--myblue:blue;
+}
+
+body{
+    background-color:var(--myblue);
+    width: 100%;
+    color:white;
+    height: 100%;
+}
+p{
+    
+    font-size: large;
+    font-family: 'Viaoda Libre', cursive;
+}
